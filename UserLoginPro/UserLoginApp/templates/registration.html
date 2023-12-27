@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form method = "POST">
+    {% csrf_token %}
+  <label for="name">name:</label><br>
+  <input type="text" name="name" ><br>
+  <label for="email">email:</label><br>
+  <input type="text" name="email"><br>
+  <label for="password">password:</label><br>
+  <input type="password" name="password"><br>
+  <label for="confirmpassword">confirmpassword:</label><br>
+  <input type="password" name="confirmpassword"><br>
+  <input type = "submit" value = "Submit"> 
+</form>
+
+</body>
+</html>
